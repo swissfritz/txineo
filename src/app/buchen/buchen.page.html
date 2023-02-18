@@ -21,13 +21,7 @@
       <ion-label>Gleiches Auto???</ion-label>
       <ion-toggle class="bggr" slot="start" color="light" formControlName="sameCar" type="toggle" checked="false">
       </ion-toggle>
-    </ion-item>
-
-    <p style="color:gold">Auf den folgenden Seiten geben Sie bitte unter dem Wochentag <b>f</b> für früh,
-        <b>s</b> für spät oder <b>t</b> für Tag (24h) ein. Wenn Sie "Absenden" drücken, zeigt
-      Ihre Email-App Ihre Buchung an. Wo nichts gebucht wurde, steht dort "kB" für keine Buchung.
-      Haben Sie etwas Anderes als f/s/t eingegeben, erscheint ebenfalls "kB", d.h. diese Buchung wird nicht erfasst.
-    </p> <br>
+    </ion-item> <br><br><br>
 
     <ion-item class="error-message"
       *ngIf="!buchenForm.controls.names.valid || form.submitted && !buchenForm.controls.names.valid">

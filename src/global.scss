@@ -28,7 +28,7 @@
 /* alert CSS */
 .alm {
     --backdrop-opacity: 0.6;
-    --background: yellow;
+    --background: white;
     .alert-title.sc-ion-alert-md, .alert-title.sc-ion-alert-ios {
         font-size: 18;
         color: black;
@@ -39,7 +39,6 @@
     }
     .alert-button.sc-ion-alert-md, .alert-button.sc-ion-alert-ios {
         color: black;
-        background-color: orange;
         width: 110px;
         border-radius: 2px;
         font-weight: bold;
